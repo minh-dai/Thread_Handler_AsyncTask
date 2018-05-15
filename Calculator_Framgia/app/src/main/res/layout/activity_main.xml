@@ -2,25 +2,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#a3a3a3" >
-
-    <TextView
-        android:cursorVisible="false"
-        android:enabled="false"
-        android:textSize="35sp"
-        android:id="@+id/txtNumber"
-        android:layout_alignParentTop="true"
-        android:layout_width="match_parent"
-        android:layout_height="210sp"
-        android:hint="0"
-        android:textColor="#ffffff" />
+    android:background="#a3a3a3">
 
     <TableLayout
-        android:layout_below="@+id/txtNumber"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/tab"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:stretchColumns="*">
 
         <TableRow
@@ -42,7 +30,7 @@
                 android:textSize="35sp" />
 
             <TextView
-                android:id="@+id/txt"
+                android:id="@+id/txtAm"
                 android:layout_height="60sp"
                 android:layout_marginLeft="1dp"
                 android:layout_weight="1"
@@ -282,5 +270,18 @@
                 android:textSize="35sp" />
         </TableRow>
     </TableLayout>
+
+
+    <TextView
+        android:scrollbars = "vertical"
+        android:layout_above="@+id/tab"
+        android:id="@+id/txtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="right|bottom"
+        android:hint="0"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
 
 </RelativeLayout>
