@@ -20,48 +20,24 @@
 
             <TextView
                 android:id="@+id/txtAC"
-                android:layout_height="60sp"
-                android:layout_marginRight="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="AC"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="AC" />
 
             <TextView
                 android:id="@+id/txtAm"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="+/-"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="+/-" />
 
             <TextView
                 android:id="@+id/txtChiaDu"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_marginRight="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="%"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="%" />
 
             <TextView
                 android:id="@+id/txtChia"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="1"
-                android:background="#ff8400"
-                android:gravity="center"
-                android:text="/"
-                android:textColor="#ffffff"
-                android:textSize="35sp" />
+                style="@style/CustomDau"
+                android:background="@color/colorDau"
+                android:text="/" />
 
         </TableRow>
 
@@ -75,48 +51,24 @@
 
             <TextView
                 android:id="@+id/txt7"
-                android:layout_height="60sp"
-                android:layout_marginRight="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="7"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="7" />
 
             <TextView
                 android:id="@+id/txt8"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="8"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="8" />
 
             <TextView
                 android:id="@+id/txt9"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_marginRight="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="9"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="9" />
 
             <TextView
                 android:id="@+id/txtNhan"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="1"
-                android:background="#ff8400"
-                android:gravity="center"
-                android:text="*"
-                android:textColor="#ffffff"
-                android:textSize="35sp" />
+                style="@style/CustomDau"
+                android:background="@color/colorDau"
+                android:text="*" />
 
         </TableRow>
 
@@ -130,48 +82,24 @@
 
             <TextView
                 android:id="@+id/txt4"
-                android:layout_height="60sp"
-                android:layout_marginRight="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="4"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberLeft"
+                android:text="4" />
 
             <TextView
                 android:id="@+id/txt5"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="5"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="5" />
 
             <TextView
                 android:id="@+id/txt6"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_marginRight="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="6"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="6" />
 
             <TextView
                 android:id="@+id/txtTru"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="1"
-                android:background="#ff8400"
-                android:gravity="center"
-                android:text="-"
-                android:textColor="#ffffff"
-                android:textSize="35sp" />
+                style="@style/CustomDau"
+                android:background="@color/colorDau"
+                android:text="-" />
 
         </TableRow>
 
@@ -185,48 +113,24 @@
 
             <TextView
                 android:id="@+id/txt1"
-                android:layout_height="60sp"
-                android:layout_marginRight="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="1"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="1" />
 
             <TextView
                 android:id="@+id/txt2"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="2"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="2" />
 
             <TextView
                 android:id="@+id/txt3"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_marginRight="1dp"
-                android:layout_weight="1"
-                android:background="#d2d2d2"
-                android:gravity="center"
-                android:text="3"
-                android:textColor="#000000"
-                android:textSize="35sp" />
+                style="@style/CustomNumberRight"
+                android:text="3" />
 
             <TextView
                 android:id="@+id/txtCong"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="1"
-                android:background="#ff8400"
-                android:gravity="center"
-                android:text="+"
-                android:textColor="#ffffff"
-                android:textSize="35sp" />
+                style="@style/CustomDau"
+                android:background="@color/colorDau"
+                android:text="+" />
 
         </TableRow>
 
@@ -239,8 +143,7 @@
 
             <TextView
                 android:id="@+id/txt0"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
+                style="@style/CustomFontZero"
                 android:layout_span="2"
                 android:background="#d2d2d2"
                 android:gravity="center"
@@ -261,26 +164,22 @@
 
             <TextView
                 android:id="@+id/txtBang"
-                android:layout_height="60sp"
-                android:layout_marginLeft="1dp"
-                android:background="#ff8400"
-                android:gravity="center"
-                android:text="="
-                android:textColor="#f9f6f6"
-                android:textSize="35sp" />
+                style="@style/CustomDau"
+                android:background="@color/colorDau"
+                android:text="=" />
         </TableRow>
     </TableLayout>
 
 
     <TextView
-        android:scrollbars = "vertical"
-        android:layout_above="@+id/tab"
         android:id="@+id/txtNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/tab"
         android:layout_alignParentTop="true"
         android:gravity="right|bottom"
         android:hint="0"
+        android:scrollbars="vertical"
         android:textColor="#ffffff"
         android:textSize="35sp" />
 
