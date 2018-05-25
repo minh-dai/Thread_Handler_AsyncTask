@@ -29,7 +29,6 @@ public class MyFragment extends Fragment implements View.OnClickListener {
     private View view;
     private boolean checkFomat = true;
     private OnDataPass dataPasser;
-    ;
     private SharedPreferences sharedPreferences;
 
     @Nullable
